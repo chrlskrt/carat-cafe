@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Website Title -->
+    <title>Carat Cafe</title>
+
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="./images/fav-icon.svg" />
+
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./css/main_styles.css" />
+    <link rel="stylesheet" href="./css/responsiveness.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="web-logo">
+        <a href="#"><span>carat cafe</span></a>
+      </div>
+
+      <nav id="navbar">
+        <!-- Main navigation -->
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./images/home-icon.svg" alt="Home button icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/cart-icon.svg" alt="Cart button icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/profile-icon.svg" alt="profile button icon" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="headline">
+        <div>
+          <h1>All things SEVENTEEN</h1>
+          <p>CARATs one-stop-shop for Albums and Photocards</p>
+        </div>
+      </section>
+      <section id="search-and-filter">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Search for albums and pcs...  "
+        />
+        <select id="artist-filter">
+          <option value="all">Seventeen</option>
+          <option value="Seventeen">Group</option>
+          <option value="BSS">BSS</option>
+          <option value="JEONGHAN X WONWOO">JEONGHAN X WONWOO</option>
+          <option value="Scoups">Scoups</option>
+          <option value="Jeonghan">Jeonghan</option>
+          <option value="Joshua">Joshua</option>
+          <option value="Jun">Jun</option>
+          <option value="Hoshi">Hoshi</option>
+          <option value="Wonwoo">Wonwoo</option>
+          <option value="Woozi">Woozi</option>
+          <option value="The8">The8</option>
+          <option value="Mingyu">Mingyu</option>
+          <option value="DK">DK</option>
+          <option value="Seungkwan">Seungkwan</option>
+          <option value="Vernon">Vernon</option>
+          <option value="Dino">Dino</option>
+        </select>
+        <select id="type-filter">
+          <option value="all">All types</option>
+          <option value="album">Album</option>
+          <option value="pc">Photocard</option>
+        </select>
+        <select id="version-filter">
+          <option value="all">All versions</option>
+          <option value="standard">Standard</option>
+          <option value="carver">Carat</option>
+          <option value="weverse">Weverse</option>
+          <option value="kit">KiT</option>
+        </select>
+      </section>
+      <section id="product-display">
+        <!-- Product items will be injected here dynamically -->
+      </section>
+      <!-- section for when there are no products available -->
+      <section id="no-products-available" class="hidden">
+        <img
+          src="./images/no-products-available.png"
+          alt="no products available picture"
+        />
+        <h2>Oh no...</h2>
+        <p>
+          No products found based on the search input and selected filter/s.
+          <br />
+          Please try again.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-section-container">
+        <div class="web-logo footer-section-1" id="footer-logo">
+          <a href="#"><span>carat cafe</span></a>
+        </div>
+        <div class="footer-section-2" id="quick-links">
+          <div class="quick-link-section">
+            <h5>Product</h5>
+            <ul>
+              <li><a href="#">Sign up</a></li>
+              <li><a href="#">Log in</a></li>
+            </ul>
+          </div>
+          <div class="quick-link-section">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section-container copyright">© Fanbase Cafe Inc.</div>
+    </footer>
+  </body>
+
+  <script src="./js/script.js"></script>
+</html>

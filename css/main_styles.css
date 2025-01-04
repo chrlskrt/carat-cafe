@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  --x-section-padding: 20px;
+  --product-card-img-height: 160px;
+  --product-card-per-row: 5;
+  --product-card-gap: 20px;
+  --serenity-color: #91a8d0;
+  --rose-quartz-color: #f7cac9;
+  --price-color: #ba0029;
+  --header-bg-color: white;
+  --footer-bg-color: black;
+  --footer-text-color: white;
+  --product-card-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  --gradient-bg: linear-gradient(
+    150deg,
+    var(--serenity-color),
+    var(--rose-quartz-color)
+  );
+}
+
+html,
+body {
+  min-width: 344px;
+  height: 100vh;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Scrollbar style */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--header-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--serenity-color);
+  border-radius: 25px;
+}
+
+/* Text styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+}
+
+/* List and Anchor Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Logo Style */
+.web-logo {
+  display: flex;
+  font-family: "Bagel Fat One";
+  font-size: 1.75rem;
+  align-items: center;
+}
+
+.web-logo > a > span {
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    var(--rose-quartz-color),
+    var(--serenity-color)
+  );
+  background-clip: text;
+}
+
+.web-logo a:hover {
+  text-decoration: none;
+}
+
+/* Space occupied by fixed navbar */
+main::before {
+  content: "";
+  display: block;
+  height: 60px;
+}
+
+/* Header Section */
+header,
+.footer-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 10px 15px;
+  background: var(--header-bg-color);
+  z-index: 100;
+}
+
+/* Nav style */
+nav {
+  display: flex;
+  flex: 1;
+  align-items: last baseline;
+  padding-bottom: 2px;
+}
+
+nav::before {
+  content: "";
+  flex: 2;
+}
+
+nav ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+nav a img {
+  width: 25px;
+  height: 25px;
+}
+
+nav a img:hover {
+  transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+  background: var(--footer-bg-color);
+  gap: 20px;
+  padding: 15px var(--x-section-padding) 15px 30px;
+  color: var(--footer-text-color);
+}
+
+.footer-section-container > div {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+}
+
+.quick-link-section {
+  flex: 1;
+}
+
+footer .web-logo a {
+  font-size: 2.5rem;
+}
+
+/* section base styles */
+section {
+  padding: 10px var(--x-section-padding);
+}
+
+/* Headline section */
+#headline {
+  background: var(--gradient-bg);
+  color: white;
+}
+
+/* search and filter section */
+#search-and-filter {
+  position: sticky;
+  top: 60px;
+  background: var(--header-bg-color);
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#search-input {
+  flex: 1;
+}
+
+#search-input,
+select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--rose-quartz-color);
+}
+
+option:checked {
+  background-color: var(--rose-quartz-color);
+}
+
+/* product-display section */
+#product-display {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(var(--product-card-per-row), minmax(0, 1fr));
+  gap: var(--product-card-gap);
+  margin-bottom: 15px;
+}
+
+.product-card {
+  min-height: 250px;
+  border-radius: 25px;
+  box-shadow: var(--product-card-box-shadow);
+  transition: transform 0.3s ease;
+}
+
+.product-card img {
+  width: 100%;
+  height: var(--product-card-img-height);
+  aspect-ratio: 1 / 1;
+  object-fit: scale-down;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.product-card-details {
+  padding: 15px;
+}
+
+.product-card-details > span {
+  color: var(--price-color);
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+#no-products-available {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 25px 25px;
+}
+
+#no-products-available img {
+  height: 100px;
+  object-fit: scale-down;
+  aspect-ratio: 1/1;
+}
+
+#no-products-available.hidden {
+  display: none;
+}

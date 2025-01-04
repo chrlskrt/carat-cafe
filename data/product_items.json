@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "name": "SEVENTEEN BEST ALBUM - 17 IS RIGHT HERE",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "standard",
+    "price": 1764.00,
+    "imgURL": "./images/album/svt-17rh-standard.jpg"
+  },
+  {
+    "id": 2,
+    "name": "SEVENTEENTH HEAVEN 11th Mini Album (CARAT Version)",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "carver",
+    "price": 612.00,
+    "imgURL": "./images/album/svt-17th-heaven-carver.jpg"
+  },
+  {
+    "id": 3,
+    "name": "SEVENTEENTH HEAVEN 11th Mini Album",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "standard",
+    "price": 927.00,
+    "imgURL": "./images/album/svt-17th-heaven-standard.jpg"
+  },
+  {
+    "id": 4,
+    "name": "SEVENTEENTH HEAVEN 11th Mini Album (KiT Version)",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "kit",
+    "price": 1026.00,
+    "imgURL": "./images/album/svt-17th-heaven-kit.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Attacca 9th Mini Album (CARAT Version)",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "carver",
+    "price": 463.00,
+    "imgURL": "./images/album/svt-attacca-carver.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Second Wind 1st Single Album",
+    "artist": "BSS",
+    "type": "album",
+    "version": "standard",
+    "price": 806.00,
+    "imgURL": "./images/album/svt-bss-secondwind-standard.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Teleparty 2nd Single Album",
+    "artist": "BSS",
+    "type": "album",
+    "version": "standard",
+    "price": 918.00,
+    "imgURL": "./images/album/svt-bss-teleparty-standard.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Teleparty 2nd Single Album (KiT Version)",
+    "artist": "BSS",
+    "type": "album",
+    "version": "kit",
+    "price": 1044.00,
+    "imgURL": "./images/album/svt-bss-teleparty-kit.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Teleparty 2nd Single Album (Weverse Version)",
+    "artist": "BSS",
+    "type": "album",
+    "version": "weverse",
+    "price": 570.00,
+    "imgURL": "./images/album/svt-bss-teleparty-weverse-ver.jpg"
+  },
+  {
+    "id": 10,
+    "name": "FML 10th Mini Album",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "standard",
+    "price": 864.00,
+    "imgURL": "./images/album/svt-fml-standard.jpg"
+  },
+  {
+    "id": 11,
+    "name": "FML 10th Mini Album (KiT Version)",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "kit",
+    "price": 801.00,
+    "imgURL": "./images/album/svt-fml-kit.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Face The Sun 4th Album",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "standard",
+    "price": 891.00,
+    "imgURL": "./images/album/svt-fts-standard.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Face The Sun 4th Album (CARAT Version)",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "carver",
+    "price": 503.00,
+    "imgURL": "./images/album/svt-fts-carver.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Spill The Feels 12th Mini Album",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "standard",
+    "price": 972.00,
+    "imgURL": "./images/album/svt-spill-the-feels-standard.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Spill The Feels 12th Mini Album (CARAT Version)",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "carver",
+    "price": 621.00,
+    "imgURL": "./images/album/svt-spill-the-feels-carver.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Spill The Feels 12th Mini Album (Weverse Version)",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "weverse",
+    "price": 465.00,
+    "imgURL": "./images/album/svt-spill-the-feels-weverse-ver.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Teen, Age 2nd Album",
+    "artist": "Seventeen",
+    "type": "album",
+    "version": "standard",
+    "price": 761.00,
+    "imgURL": "./images/album/svt-teen-age-standard.jpg"
+  },
+  {
+    "id": 18,
+    "name": "This Man 1st Single Album",
+    "artist": "JEONGHAN X WONWOO",
+    "type": "album",
+    "version": "standard",
+    "price": 445.00,
+    "imgURL": "./images/album/svt-jhxww-this-man-weverse.jpg"
+  },
+  {
+    "id": 19,
+    "name": "DK SPILL THE FEELS CarVer RPC SET",
+    "artist": "DK",
+    "type": "pc",
+    "version": "carver",
+    "price": 350.00,
+    "imgURL": "./images/pc/svt-dk-spill-the-feels-carver-rpc-set.jpg"
+  },
+  {
+    "id": 20,
+    "name": "HOSHI 17 is Right Here ( Best Album ) CarVer RPC SET",
+    "artist": "Hoshi",
+    "type": "pc",
+    "version": "carver",
+    "price": 350.00,
+    "imgURL": "./images/pc/svt-hs-17rh-carver-rpc-set.jpg"
+  },
+  {
+    "id": 21,
+    "name": "JEONGHAN Sector 17 PC SET ",
+    "artist": "Jeonghan",
+    "type": "pc",
+    "version": "standard",
+    "price": 1000.00,
+    "imgURL": "./images/pc/svt-jh-sector17-pc-set.jpg"
+  },
+  {
+    "id": 22,
+    "name": "JOSHUA SPILL THE FEELS CarVer SET",
+    "artist": "Joshua",
+    "type": "pc",
+    "version": "carver",
+    "price": 550.00,
+    "imgURL": "./images/albumwpc/svt-js-spill-the-feels-carver-set.jpg"
+  },
+  {
+    "id": 23,
+    "name": "MINGYU FML CarVer RPC SET",
+    "artist": "Mingyu",
+    "type": "pc",
+    "version": "carver",
+    "price": 350.00,
+    "imgURL": "./images/pc/svt-mg-fml-carver-rpc-set.jpg"
+  },
+  {
+    "id": 24,
+    "name": "SCOUPS Sector 17 Weverse Version SET",
+    "artist": "Scoups",
+    "type": "album",
+    "version": "carver",
+    "price": 600.00,
+    "imgURL": "./images/pc/svt-sc-sector17-weverse-ver-set.jpg"
+  },
+  {
+    "id": 25,
+    "name": "SEUNGKWAN SEVENTEENTH HEAVEN Carver SET",
+    "artist": "Seungkwan",
+    "type": "pc",
+    "version": "carver",
+    "price": 550.00,
+    "imgURL": "./images/albumwpc/svt-sk-17th-heaven-carver-set.jpg"
+  },
+  {
+    "id": 26,
+    "name": "VERNON SEVENTEENTH HEAVEN CarVer RPC SET",
+    "artist": "Vernon",
+    "type": "pc",
+    "version": "carver",
+    "price": 350.00,
+    "imgURL": "./images/pc/svt-vn-17th-heaven-carver-rpc-set.jpg"
+  },
+  {
+    "id": 27,
+    "name": "DINO SPILL THE FEELS CarVer RPC SET",
+    "artist": "Dino",
+    "type": "pc",
+    "version": "carver",
+    "price": 350.00,
+    "imgURL": "./images/pc/svt-dn-spill-the-feels-carver-rpc-set.jpg"
+  },
+  {
+    "id": 28,
+    "name": "JUN Dream LIM C",
+    "artist": "Jun",
+    "type": "pc",
+    "version": "standard",
+    "price": 500.00,
+    "imgURL": "./images/pc/svt-jn-dream-lim-c.jpg"
+  },
+  {
+    "id": 29,
+    "name": "THE8 SPILL THE FEELS CarVer SET",
+    "artist": "The8",
+    "type": "pc",
+    "version": "carver",
+    "price": 550.00,
+    "imgURL": "./images/albumwpc/svt-mh-spill-the-feels-carver-set.jpg"
+  },
+  {
+    "id": 30,
+    "name": "WONWOO FML Fallen, Misfit, Lost RPC",
+    "artist": "Wonwoo",
+    "type": "pc",
+    "version": "standard",
+    "price": 200.00,
+    "imgURL": "./images/pc/svt-ww-fml-fallen-misfit-lost-rpc.jpg"
+  },
+  {
+    "id": 31,
+    "name": "WOOZI 17 is Right Here ( Best Album ) CarVer RPC SET",
+    "artist": "Woozi",
+    "type": "pc",
+    "version": "carver",
+    "price": 350.00,
+    "imgURL": "./images/pc/svt-wz-17rh-carver-rpc-set.jpg"
+  }
+]

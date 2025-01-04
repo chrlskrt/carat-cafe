@@ -1,0 +1,47 @@
+/* Larger Screens */
+@media screen and (min-width: 1921px) {
+  :root {
+    font-size: 20px;
+    --product-card-per-row: 8;
+    --product-card-img-height: 200px;
+  }
+}
+
+/* Desktop */
+@media screen and (max-width: 1920px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+/* Tablet Styles */
+@media screen and (max-width: 820px) {
+  :root {
+    font-size: 17px;
+    --product-card-per-row: 4;
+  }
+}
+
+/* necessary break-out point */
+@media screen and (max-width: 761px) {
+  :root {
+    --product-card-per-row: 3;
+  }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 576px) {
+  :root {
+    font-size: 16px;
+    --product-card-per-row: 2;
+  }
+
+  nav::before {
+    flex: 1;
+  }
+
+  .footer-section-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
