@@ -25,13 +25,8 @@ const products = [];
 function filterAndDisplayProducts() {
   let filteredProducts = products;
 
-  console.log(products);
-  console.log(artistFilter.value);
-  console.log(filteredProducts);
-
   // Get the current search query and filters
   let searchQuery = searchInput.value.toLowerCase();
-  console.log(searchQuery);
   let artistFilterValue = artistFilter.value;
   let typeFilterValue = typeFilter.value;
   let versionFilterValue = versionFilter.value;
@@ -51,7 +46,6 @@ function filterAndDisplayProducts() {
       (product) => product.artist === artistFilterValue
     );
   }
-  console.log(filteredProducts);
 
   // Filter products based on type filter
   if (typeFilterValue !== "all") {
