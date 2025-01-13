@@ -34,7 +34,7 @@
         <!-- Main navigation -->
         <ul>
           <li>
-            <a href="#">
+            <a href="./index.html">
               <img src="./images/home-icon.svg" alt="Home button icon" />
             </a>
           </li>
@@ -44,7 +44,7 @@
             </a>
           </li>
           <li>
-            <a href="./signup.html">
+            <a href="#">
               <img src="./images/profile-icon.svg" alt="profile button icon" />
             </a>
           </li>
@@ -53,66 +53,16 @@
     </header>
 
     <main>
-      <section id="headline">
-        <div>
-          <h1>All things SEVENTEEN</h1>
-          <p>CARATs one-stop-shop for Albums and Photocards</p>
+      <form name="signupForm">
+        <div class="form-group">
+          <label for="username">username:</label>
+          <input type="text" id="username" name="username" required />
         </div>
-      </section>
-      <section id="search-and-filter">
-        <input
-          id="search-input"
-          type="text"
-          placeholder="Search for albums and pcs...  "
-        />
-        <select id="artist-filter">
-          <option value="all">Seventeen</option>
-          <option value="Seventeen">Group</option>
-          <option value="BSS">BSS</option>
-          <option value="JEONGHAN X WONWOO">JEONGHAN X WONWOO</option>
-          <option value="Scoups">Scoups</option>
-          <option value="Jeonghan">Jeonghan</option>
-          <option value="Joshua">Joshua</option>
-          <option value="Jun">Jun</option>
-          <option value="Hoshi">Hoshi</option>
-          <option value="Wonwoo">Wonwoo</option>
-          <option value="Woozi">Woozi</option>
-          <option value="The8">The8</option>
-          <option value="Mingyu">Mingyu</option>
-          <option value="DK">DK</option>
-          <option value="Seungkwan">Seungkwan</option>
-          <option value="Vernon">Vernon</option>
-          <option value="Dino">Dino</option>
-        </select>
-        <select id="type-filter">
-          <option value="all">All types</option>
-          <option value="album">Album</option>
-          <option value="pc">Photocard</option>
-        </select>
-        <select id="version-filter">
-          <option value="all">All versions</option>
-          <option value="standard">Standard</option>
-          <option value="carver">Carat</option>
-          <option value="weverse">Weverse</option>
-          <option value="kit">KiT</option>
-        </select>
-      </section>
-      <section id="product-display">
-        <!-- Product items will be injected here dynamically -->
-      </section>
-      <!-- section for when there are no products available -->
-      <section id="no-products-available" class="hidden">
-        <img
-          src="./images/no-products-available.png"
-          alt="no products available picture"
-        />
-        <h2>Oh no...</h2>
-        <p>
-          No products found based on the search input and selected filter/s.
-          <br />
-          Please try again.
-        </p>
-      </section>
+        <div class="form-group">
+          <label for="password">password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+      </form>
     </main>
 
     <footer>
